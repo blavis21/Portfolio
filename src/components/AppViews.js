@@ -8,11 +8,6 @@ import Resume from './Resume'
 
 export default class AppViews extends Component {
 
-    state = {
-
-    }
-
-
 
     render() {
         return (
