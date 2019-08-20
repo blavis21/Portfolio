@@ -72,7 +72,7 @@ export default class Resume extends Component {
                             skill="JavaScript"
                             progess={75} />
                         <Skills
-                            skill="HTML/CSS"
+                            skill="React"
                             progess={85} />
 
                     </Cell>
