@@ -16,14 +16,14 @@ export default class Projects extends Component {
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
 
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(http://3.bp.blogspot.com/-PTty3CfTGnA/TpZOEjTQ_WI/AAAAAAAAAeo/KeKt_D5X2xo/w1200-h630-p-k-nu/js.jpg) center / cover' }}>
-                            JavaScript Project #1
+                            Daily Journal
                     </CardTitle>
 
-                        <CardText>Stuff</CardText>
+                        <CardText>Journal for keeping track of daily tasks in class.</CardText>
 
                         <CardActions border>
                             <Button colored>Github</Button>
-                            <Button colored>Live Demo</Button>
+                            {/* <Button colored>Live Demo</Button> */}
                         </CardActions>
 
                         <CardMenu style={{ color: '#fff' }}>
@@ -35,14 +35,14 @@ export default class Projects extends Component {
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
 
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(http://3.bp.blogspot.com/-PTty3CfTGnA/TpZOEjTQ_WI/AAAAAAAAAeo/KeKt_D5X2xo/w1200-h630-p-k-nu/js.jpg) center / cover' }}>
-                            JavaScript Project #1
+                            Welcome to Nashville
                     </CardTitle>
 
-                        <CardText>Stuff</CardText>
+                        <CardText>Nashville Itinerary App</CardText>
 
                         <CardActions border>
                             <Button colored>Github</Button>
-                            <Button colored>Live Demo</Button>
+                            {/* <Button colored>Live Demo</Button> */}
                         </CardActions>
 
                         <CardMenu style={{ color: '#fff' }}>
@@ -54,14 +54,14 @@ export default class Projects extends Component {
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
 
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(http://3.bp.blogspot.com/-PTty3CfTGnA/TpZOEjTQ_WI/AAAAAAAAAeo/KeKt_D5X2xo/w1200-h630-p-k-nu/js.jpg) center / cover' }}>
-                            JavaScript Project #1
+                            NUtshell
                     </CardTitle>
 
-                        <CardText>Stuff</CardText>
+                        <CardText>Social media style app with many features.</CardText>
 
                         <CardActions border>
                             <Button colored>Github</Button>
-                            <Button colored>Live Demo</Button>
+                            {/* <Button colored>Live Demo</Button> */}
                         </CardActions>
 
                         <CardMenu style={{ color: '#fff' }}>
@@ -78,14 +78,14 @@ export default class Projects extends Component {
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
 
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.viget.com%2Freact-logo-wide.png%3Fmtime%3D20160411121644&f=1) center / cover' }}>
-                            React Project #1
+                            Kennel
                     </CardTitle>
 
-                        <CardText>Stuff</CardText>
+                        <CardText>App to keep track of animals and employees for a kennel.</CardText>
 
                         <CardActions border>
                             <Button colored>Github</Button>
-                            <Button colored>Live Demo</Button>
+                            {/* <Button colored>Live Demo</Button> */}
                         </CardActions>
 
                         <CardMenu style={{ color: '#fff' }}>
@@ -97,14 +97,14 @@ export default class Projects extends Component {
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
 
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.viget.com%2Freact-logo-wide.png%3Fmtime%3D20160411121644&f=1) center / cover' }}>
-                            React Project #2
+                            Ternary Traveler
                     </CardTitle>
 
-                        <CardText>Stuff</CardText>
+                        <CardText>One day code challenge.</CardText>
 
                         <CardActions border>
                             <Button colored>Github</Button>
-                            <Button colored>Live Demo</Button>
+                            {/* <Button colored>Live Demo</Button> */}
                         </CardActions>
 
                         <CardMenu style={{ color: '#fff' }}>
@@ -116,14 +116,14 @@ export default class Projects extends Component {
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
 
                         <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.viget.com%2Freact-logo-wide.png%3Fmtime%3D20160411121644&f=1) center / cover' }}>
-                            React Project #3
+                            WoodWerx
                     </CardTitle>
 
-                        <CardText>Stuff</CardText>
+                        <CardText>Front-End Capstone Project</CardText>
 
                         <CardActions border>
                             <Button colored>Github</Button>
-                            <Button colored>Live Demo</Button>
+                            {/* <Button colored>Live Demo</Button> */}
                         </CardActions>
 
                         <CardMenu style={{ color: '#fff' }}>
