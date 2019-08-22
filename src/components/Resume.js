@@ -21,7 +21,7 @@ export default class Resume extends Component {
                         <h2 style={{ paddingTop: '2em' }}>Blake Davis</h2>
                         <h4 style={{ color: 'grey' }}>Programmer</h4>
                         <hr style={{ borderTop: '3px solid #ffa17f', width: '50%' }} />
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>From the days as a kid disassembling electronics, to the first website I created in high school, I have always had an insatiable curiosity to understand how things work. Prior to starting my programming journey, I worked years of retail followed by construction. Eventually I took over the family business doing carpet cleaning before I realized I longed for a job that would be mentally stimulating daily.</p>
                         <hr style={{ borderTop: '3px solid #ffa17f', width: '50%' }} />
                         <h5>Address</h5>
                         <p>White House, TN 37188</p>
@@ -39,31 +39,31 @@ export default class Resume extends Component {
                             startYear={2019}
                             endYear={2019}
                             schoolName="Nashville Software School"
-                            schoolDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
+                            schoolDescription="" />
                         <Education
                             startYear={2003}
                             endYear={2007}
                             schoolName="Hendersonville High School"
-                            schoolDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
+                            schoolDescription="" />
                         <hr style={{ borderTop: '3px solid #ffa17f' }} />
                         <h2>Experience</h2>
                         <Experience
-                            startYear={200}
-                            endYear={1234}
+                            startYear={2019}
+                            endYear={2019}
                             jobName="Nashville Software School"
-                            jobDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
+                            jobDescription="Intensive full-time 6-month software development boot camp focusing on full stack (Python/Django) development fundamentals and problem solving. The final half of the program executed in a simulated company environment with Scrum methodology." />
                         <Experience
-                            startYear={3423}
-                            endYear={1234}
-                            jobName="Job 2"
-                            jobDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
+                            startYear={2017}
+                            endYear={2019}
+                            jobName="Old Glory Carpet Cleaning"
+                            jobDescription="Identified and analyzed customer's concerns about stains and damages, understanding and anticipating needs while building customer relationships based on trust. Maintained and serviced company equipment, e.g., truck mounted engine and water system, upholstery cleaning tools, floor fans, etc... Responsible for acquiring new customers and maintaining relationship. Kept  inventory of cleaning supplies." />
                         <Experience
-                            startYear={1234}
-                            endYear={1234}
-                            jobName="Job 3"
-                            jobDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
-                        <hr style={{ borderTop: '3px solid #ffa17f' }} />
-                        <h2>Skills</h2>
+                            startYear={2015}
+                            endYear={2019}
+                            jobName="Morgan Electric"
+                            jobDescription="Installation and repair of electrical wiring and or electrical components in residential homes. Install Electrical wirings and connect it to the main fuse, breakers, or source of electricity. Repair malfunctions and damages to wiring and conduit. Inspect the wiring and electric status of the home based on codes and certifications. Use hand tools such as screwdrivers, pliers, knives, and hacksaws. Use power tools and testing equipment such as voltmeters, ammeters, and computer systems. Responsible for observing and complying with all company safety regulations and industry standards. Performs other duties as required." />
+                        {/* <hr style={{ borderTop: '3px solid #ffa17f' }} /> */}
+                        {/* <h2>Skills</h2>
                         
                         <Skills
                             skill="HTML/CSS"
@@ -74,7 +74,7 @@ export default class Resume extends Component {
                             progess={75} />
                         <Skills
                             skill="React"
-                            progess={85} />
+                            progess={85} /> */}
 
                     </Cell>
 
