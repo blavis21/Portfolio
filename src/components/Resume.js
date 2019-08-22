@@ -24,7 +24,7 @@ export default class Resume extends Component {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                         <hr style={{ borderTop: '3px solid #ffa17f', width: '50%' }} />
                         <h5>Address</h5>
-                        <p>120 Clarice Court, White House, TN 37188</p>
+                        <p>White House, TN 37188</p>
                         <h5>Phone</h5>
                         <p>(615) 478-3592</p>
                         <h5>Email</h5>
@@ -36,21 +36,21 @@ export default class Resume extends Component {
                     <Cell className="resume-right-col" col={8}>
                         <h2>Education</h2>
                         <Education
-                            startYear={2003}
-                            endYear={2007}
-                            schoolName="Hendersonville High School"
-                            schoolDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
-                        <Education
                             startYear={2019}
                             endYear={2019}
                             schoolName="Nashville Software School"
                             schoolDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
+                        <Education
+                            startYear={2003}
+                            endYear={2007}
+                            schoolName="Hendersonville High School"
+                            schoolDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
                         <hr style={{ borderTop: '3px solid #ffa17f' }} />
                         <h2>Experience</h2>
                         <Experience
-                            startYear={2008}
+                            startYear={200}
                             endYear={1234}
-                            jobName="Job 1"
+                            jobName="Nashville Software School"
                             jobDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
                         <Experience
                             startYear={3423}
@@ -67,7 +67,8 @@ export default class Resume extends Component {
                         
                         <Skills
                             skill="HTML/CSS"
-                            progess={100} />
+                            // progess={100}
+                             />
                         <Skills
                             skill="JavaScript"
                             progess={75} />
